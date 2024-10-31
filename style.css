@@ -1,0 +1,129 @@
+/*
+ * WPGear.
+ * Org. Departments
+ * style.css
+ */
+.orgdepartments_departments_box {
+	margin-top: 20px;
+    margin-left: 20px;
+}	
+.orgdepartments_departments_tree_box {
+	float: left;
+}
+.orgdepartments_department_item {
+	clear: both;
+    float: left;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+	min-width: 200px;
+	background: whitesmoke;
+}
+.orgdepartments_department_item:hover {
+    background: cornflowerblue;
+    color: white;
+	font-weight: bold;
+}
+.orgdepartments_departments_item_selected {
+	background: cornflowerblue !important;
+	color: white;
+}
+.orgdepartments_departments_subtree_selected {
+	background: darkseagreen;
+	color: white;
+}
+.orgdepartments_department_description {
+    clear: both;
+	float: left;
+	background: aliceblue;
+	border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+	width: auto;
+    padding: 10px;
+	margin-top: -11px;
+	margin-bottom: 10px;
+	min-width: 200px;
+}
+.orgdepartments_departments_item_opened {
+	font-weight: bold;
+    background: white;
+    color: black;	
+}
+.orgdepartments_department_members_box {
+	clear: both;
+}
+.orgdepartments_department_members {
+	padding: 0 0 0 10px !important;
+}
+.orgdepartments_department_members li {
+    cursor: pointer;
+    list-style: none !important;
+}
+.orgdepartments_department_member_card {
+	display: inline-block;
+    border-style: outset;
+    border-width: thin;
+    border-radius: 5px;
+    margin-left: 10px;
+    background: white;
+    padding: 10px;
+}
+.orgdepartments_department_member_card_label {
+	display: inline-block;
+}
+.orgdepartments_department_member_card_value {
+	display: inline-block;
+    margin-left: 5px;
+}
+.orgdepartments_department_member_card_img {
+	float: right;
+    margin-left: 10px;
+}
+.orgdepartments_department_member_card_title {
+	font-weight: bold;
+    float: left;
+	margin-bottom: 5px;
+}
+.orgdepartments_department_member_card_emal {
+	clear: both;
+}
+.orgdepartments_department_member_avatar .avatar {
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+	border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.orgdepartments_department_member_name {
+	color: royalblue;
+    margin-left: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+}
+.orgdepartments_search_box {
+	float: right;
+}
+.orgdepartments_search_input {
+	display: flex;
+}
+.orgdepartments_btn_search {
+	
+}
+.orgdepartments_search_processing {
+	margin-top: 5px;
+}
+.orgdepartments_search_result_info {
+	font-weight: bold;
+}
+.orgdepartments_search_result_info ul li {
+    color: royalblue;
+    cursor: pointer;
+    font-weight: normal;
+}

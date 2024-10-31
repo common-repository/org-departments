@@ -1,0 +1,15 @@
+/*
+ * WPGear.
+ * Org. Departments
+ * style.css
+ */
+
+th.column-status,  th.column-enable, th.column-users {
+	width: 74px;
+}
+.orgdepartments_options_box {
+	margin-left: 20px;
+}
+.orgdepartments_options_box label {
+	vertical-align: baseline;
+}
